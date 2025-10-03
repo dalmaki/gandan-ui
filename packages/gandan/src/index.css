@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+
+* {
+  font-family: 'Onest', sans-serif;
+}
+
+*::selection {
+    background-color: #88888844;
+}
+
+*:focus-visible {
+    outline: none;
+}
+
+h1 {
+    display: block;
+
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+
+    font-size: 2rem;
+}
+
+p {
+    display: block;
+
+    margin-block-start: .5rem;
+    margin-block-end: .5rem;
+
+    font-size: 1rem;
+}
+
+code {
+    font-family: 'Geist Mono', monospace;
+
+    background-color: #f4f4f4;
+    padding: .2rem .4rem;
+    border-radius: .25rem;
+}
+
+label {
+    margin-left: .25rem;
+
+    font-size: .875rem;
+
+    user-select: none;
+}

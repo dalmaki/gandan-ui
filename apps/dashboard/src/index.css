@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  height: 100dvh;
+}
+
+#Root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: auto;
+    max-width: 400px;
+    min-height: 100%;
+}

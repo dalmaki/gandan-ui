@@ -1,0 +1,7 @@
+.__C-label.__T-radio, .__C-label.__T-checkbox {
+    cursor: pointer;
+}
+
+.__C-label.__T-input {
+    cursor: text;
+}

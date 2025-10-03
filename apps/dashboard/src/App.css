@@ -1,0 +1,13 @@
+.inputSet {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+
+    & > input {
+        flex: 2;
+    }
+
+    & > button {
+        flex: 1;
+    }
+}
